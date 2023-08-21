@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Juan Basoa</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="shortcut icon" href="img/cat.png" type="image/x-icon">
+</head>
+<body class="bg-gradient-to-r from-blue-100 via-indigo-100 to-indigo-200 font-bold">
+    <!--Parte del navbar-->
+    <header class="flex justify-between items-center p-6 mx-auto  h-full w-full">
+        <h2 id="logo" class="text-2xl font-bold ">Juan Basoa</h2>
+        <img src="img/arrow.svg" alt="" class="flex md:hidden w-10 mr-6">
+        <ul class=" hidden md:flex space-x-10 text-lg justify-center items-center">
+            <li>
+                <a href="index.html" class=" text-gray-700 hover:text-gray-900 relative inline-block menu-link group">
+                    Home
+                    <div class="absolute left-0 bottom-0 w-0 h-[2px] bg-gray-700 transition-all duration-300 ease-in-out group-hover:w-full"></div>
+                </a>
+            </li>
+            <li>
+                <a href="index.html" class=" text-gray-700 hover:text-gray-900 relative inline-block menu-link group">
+                    Portofolio
+                    <div class="absolute left-0 bottom-0 w-0  h-[2px] bg-gray-700 transition-all duration-500 ease-in-out group-hover:w-full"></div>
+                </a>
+            </li>
+            <li>
+                <a href="index.html" class=" text-gray-700 hover:text-gray-900 relative inline-block menu-link group">
+                    About
+                    <div class="absolute left-0 bottom-0 w-0  h-[2px] bg-gray-700 transition-all duration-300 ease-in-out group-hover:w-full"></div>
+                </a>
+            </li>
+            <li>
+                <a href="index.html" class=" text-gray-700 hover:text-gray-900 relative inline-block menu-link group">
+                    Articles
+                    <div class="absolute left-0 bottom-0 w-0  h-[2px] bg-gray-700 transition-all duration-300 ease-in-out group-hover:w-full"></div>
+                </a>
+            </li>
+            <li id="contacto" class="bg-blue-500 px-2 rounded py-1"><a href="contact.html" class="text-gray-700 hover:text-gray-900">Get In Touch</a></li>
+        </ul>
+    </header>
+
+    <main id="" class="mx-[6rem] md:mx-[8rem] mt-12 mb-6 font">
+        <div class="flex flex-col justify-center items-center space-y-6 text-center">
+            <h2 class="text-4xl md:text-6xl font-bold animate__animated animate__zoomInDown">
+                <span class="bg-indigo-400 text-transparent bg-clip-text">Desarrollo Front-end</span>
+            </h2>
+        
+            <p class="text-xl md:text-2xl lg:text-3xl text-gray-700 max-w-xl mx-auto">
+                ¡Hola! Soy Juan Basoa, un apasionado del
+                <span class="text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text rounded-md">desarrollo web front-end</span>.
+                Estoy en constante búsqueda de conocimiento y mejora.
+            </p>
+        </div>
+        
+        <div class="animate__animated animate__fadeInRight flex flex-col md:flex-col lg:flex-row justify-center gap-12 items-center p-6 mx-12 mb-8 mt-4">
+            <div class="w-[16rem] md:w-[30rem] h-[28rem] md:h-[32rem] flex flex-col items-center rounded-lg px-3 shadow-xl border-0 hover:scale-105 transition transform duration-700 gap-3 overflow-scroll md:overflow-hidden bg-gradient-to-br from-blue-300 via-indigo-100 to-slate-300 ">
+                <img src="img/landing-page-d.png" alt="img" class="w-[20rem] pt-2">
+                <h3 class="text-xl mt-2 text-center text-transparent bg-gradient-to-tr from-indigo-600 to-indgo-500 bg-clip-text">Diseño Web Responsivo</h3>
+                <p class="mt-2 text-gray-700">Una de mis principales fortalezas es crear sitios web altamente receptivos y adaptables a dispositivos.</p>
+                <p class="text-gray-700">Mi objetivo es brindar experiencias excepcionales en cualquier dispositivo.</p>
+            </div>
+            <div class="w-[16rem] md:w-[30rem] h-[28rem] md:h-[32rem] flex flex-col items-center rounded-lg px-3 shadow-xl border-0 hover:scale-105 transition transform duration-700 gap-3 overflow-scroll md:overflow-hidden bg-gradient-to-br from-blue-300 via-indigo-100 to-slate-300 ">
+                <img src="img/checklist-5.png" alt="img" class="w-[20rem] pt-2">
+                <h3 class="text-xl mt-2 text-center text-transparent bg-gradient-to-tr from-indigo-600 to-indgo-500 bg-clip-text">Explorador Front-end</h3>
+                <p class="mt-2 text-gray-700">Enfoque en desarrollo front-end, exploración en programación del lado del servidor con tecnologías como Python y Flask.</p>
+                <p class=" text-gray-700">Manejo SQL, MariaDB y HeidiSQL, trabajo con Postman en manipulación y creación de API REST.</p>
+            </div>
+            <div class="w-[16rem] md:w-[30rem] h-[28rem] md:h-[32rem] flex flex-col items-center rounded-lg px-3 shadow-xl border-0 hover:scale-105 transition transform duration-700 gap-3 overflow-scroll md:overflow-hidden bg-gradient-to-br from-blue-300 via-indigo-100 to-slate-300 ">
+                <img src="img/personal-data-d.png" alt="img" class="w-[20rem] pt-2">
+                <h3 class="text-xl mt-2 text-center text-transparent bg-gradient-to-tr from-indigo-600 to-indgo-500 bg-clip-text">Apasionado Audiovisual</h3>
+                <p class="mt-2 text-gray-700">Apasionado del cine y la música, siempre aprendiendo más en estos temas.</p>
+                <p class="text-gray-700">Mi pasión por el aprendizaje constante es una de mis mayores fortalezas.</p>
+            </div>
+        </div>
+        
+        </div>
+        
+        <!--Portfolio & Experience-->
+        
+        <div> <h2 class="  text-2xl md:text-6xl font-bold text-center text-transparent bg-gradient-to-tr from-indigo-600 to-indgo-500 bg-clip-text">Portfolio & Experiencia</h2></div>
+       
+        
+            <!--Primer Proyecto del porfolio-->
+            <article class=" grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 mt-12 mb-[6rem] rounded-lg p-6  md:px-auto md:p-12 border shadow-2xl bg-gradient-to-br from-blue-200 via-indigo-100 to-slate-300">
+                <div class="mr-0 md:mr-16 space-y-4 flex flex-col justify-center">
+                    <h3 class=" hidden md:inline-block md:text-4xl font-black text-transparent bg-indigo-400 bg-clip-text rounded-md text-center md:mb-[6rem] hover:scale-105">To Do Clon</h3>
+                    <h4 class="text-xl font-bold text-center md:text-left text-transparent bg-gradient-to-br from-indigo-400 via-blue-400 to-indgo-500 bg-clip-text rounded-md mb-1">ToDo Microsoft</h4>
+                    <button class="text-blue-500 font-semibold hover:underline cursor-pointer md:hidden" id="toggleText">Mostrar texto</button>
+                    <div id="accordionText" class="max-h-0 md:max-h-full overflow-hidden transition-max-height duration-300 ease-in-out text-center text-[2ch]">
+                        <p>
+                            Disfruté mucho de una práctica en la que pude familiarizarme con Tailwind CSS. Además, es una aplicación que utilizo con frecuencia y deseaba realizar algunos ajustes. Por ejemplo, la barra de navegación. Entiendo que el estilo de Microsoft debe ser más sobrio, pero considero que se vería más agradable visualmente.
+                        </p>
+                    </div>
+                </div>
+                <img src="img/73shots_so.png" alt="" class=" md:w-[40rem] rounded-lg">
+            </article>
+            
+            
+            <!-- Segundo Proyecto del porfolio -->
+            <article class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 mt-12 mb-[6rem] rounded-lg p-6 md:p-12 border shadow-2xl bg-gradient-to-br from-blue-200 via-indigo-100 to-slate-300">
+                <img src="img/73shots_so.png" alt="" class="w-full md:w-[40rem] rounded-lg">
+                <div class="mr-0 md:mr-16 space-y-4 flex flex-col justify-center">
+                    <h3 class=" hidden md:inline-block md:text-4xl font-black text-transparent bg-indigo-400 bg-clip-text rounded-md text-center md:mb-[6rem] hover:scale-105">LSU TAF</h3>
+                    <h4 class="text-xl font-bold text-center md:text-left text-transparent bg-gradient-to-br from-indigo-400 via-blue-400 to-indgo-500 bg-clip-text rounded-md mb-1">LSU Football Opscase study</h4>
+                    <button class="text-blue-500 font-semibold hover:underline cursor-pointer md:hidden" id="toggleText2">Mostrar texto</button>
+                    <div id="accordionText" class="max-h-0 md:max-h-full overflow-hidden transition-max-height duration-300 ease-in-out text-center text-[2ch]">
+                        <p>
+                            Red Six Media approached me to develop an interactive and smooth front-end experience for the LSU - Football Operations Facility Expansion. The project required solutions to produce a website that matched the detailed designs and interactivity concepts provided by Red Six Media whilst remaining fast to use across a wide range of devices.
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+<!-- Tercer Proyecto del porfolio -->
+            <article class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 mt-12 mb-[6rem] rounded-lg p-6 md:p-12 border shadow-2xl bg-gradient-to-br from-blue-200 via-indigo-100 to-slate-300">
+                <div class="mr-0 md:mr-16 space-y-4 flex flex-col justify-center">
+                    <h3 class=" hidden md:inline-block md:text-4xl font-black text-transparent bg-indigo-400 bg-clip-text rounded-md text-center md:mb-[6rem] hover:scale-105">CSS3 Foundations case</h3>
+                    <h4 class="text-xl font-bold text-center md:text-left text-transparent bg-gradient-to-br from-indigo-400 via-blue-400 to-indgo-500 bg-clip-text rounded-md mb-1">CSS3 Foundations case study</h4>
+                    <button class="text-blue-500 font-semibold hover:underline cursor-pointer md:hidden" id="toggleText3">Mostrar texto</button>
+                    <div id="accordionText" class="max-h-0 md:max-h-full overflow-hidden transition-max-height duration-300 ease-in-out text-center text-[2ch]">
+                        <p>
+                            I was the designer and front-end developer for the initial Pet Plate website in 2015 and worked closely with the company as it grew over a period of 5 years, eventually becoming Lead Front-end Developer. By early 2020, Pet Plate had successfully raised a total investment fund of $13 million dollars.
+                        </p>
+                    </div>
+                </div>
+                <img src="img/73shots_so.png" alt="" class="w-full md:w-[40rem] rounded-lg">
+            </article>
+
+
+        <!--GeT in touch button-->
+        <div class="w-full h-full flex justify-center z-2 mb-16 mt-0">
+            <div class="flex justify-center items-center py-2 bg-blue-500 w-32 rounded-md space-x-4 hover:scale-105 transition transform duration-500 p-6">
+                <a href="contact.html" class="hover:scale-105 transition transform duration-500">Get In Touch</a>
+                <img src="img/arrowHeart.svg" alt="">
+            </div> 
+            
+        </div>
+       
+        
+    </main>
+
+    
+    <footer class="bg-black h-24 flex text-white justify-center items-center px-6 md:px-12 relative bottom-0 w-full">
+        <div>
+            <ul class="flex justify-center items-center space-x-6">
+                <li class="flex space-x-2 items-center">
+                    <img src="img/twitter.svg" alt="" class="bg-white rounded-full p-1 w-[1.8rem]">
+                    <a href="#" target="_blank" class="text-white">Twitter</a>
+                </li>
+                <li class="flex space-x-2 items-center">
+                   <img src="img/gitHub.svg" alt="" class="bg-white rounded-full p-1 w-[1.8rem]">
+                    <a href="#" target="_blank" class="text-white">GitHub</a>
+                </li>
+                <li class="flex space-x-2 items-center">
+                    <img src="img/linkedin.svg" alt="" class="bg-white rounded-full p-1 w-[1.8rem]">
+                    <a href="#" target="_blank" class="text-white">Linkedin</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
